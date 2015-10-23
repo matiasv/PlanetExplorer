@@ -30,6 +30,8 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,S)",res);
 		res = explorer.executeCommand("l");
 		assertEquals("(0,0,E)",res);
+		res = explorer.executeCommand("l");
+		assertEquals("(0,0,S)",res);
 		
 		explorer =  new PlanetExplorer(10,10,"");
 		//llll should return (0,0,N)
