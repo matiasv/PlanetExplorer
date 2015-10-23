@@ -68,6 +68,8 @@ public class TestPlanetExplorer {
 		String cmd ="rrff";
 		res = explorer.executeCommand(cmd);
 		assertEquals(res,"(0,0,S)");
+		
+		//and from right side of the grid to the left side
 	}
 	
 	/*
