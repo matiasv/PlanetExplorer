@@ -32,3 +32,6 @@ RefactoringAction 1445590161320 TestPlanetExplorer.java ADD import org.unioulu.t
 EditAction 1445590163451 TestPlanetExplorer.java 407 2 2 0
 EditAction 1445590183841 TestPlanetExplorer.java 432 2 3 0
 EditAction 1445590205267 TestPlanetExplorer.java 477 2 1 0
+CompilationAction 1445590205532 TestPlanetExplorer.java
+CompilationAction 1445590210400 TestPlanetExplorer.java
+EditAction 1445590292895 TestPlanetExplorer.java 545 2 6 1
