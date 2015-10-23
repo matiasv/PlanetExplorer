@@ -1,7 +1,9 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 2158866
@@ -30,7 +32,17 @@ public class PlanetExplorer {
 	
 	private Position  currentPos = new Position(0,0);
 	//where the obstacle is facing
-	private Direction facing;
+	private Direction facing = Direction.North;
+	
+	private int gridSizeX;
+	private int gridSizeY;
+	private Set<String> obstaclePositions = new HashSet<String>();
+	
+	
+	/*
+	 * TODO:
+	 * grid 
+	 */
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -39,7 +51,8 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		this.facing = Direction.North;
+		this.gridSizeX = x;
+		this.gridSizeY = y;
 	}
 	
 	private void parseObstaclePositions(String obstacles) {
@@ -57,6 +70,10 @@ public class PlanetExplorer {
 			return;
 		}
 		
+		for(int i = 0; i < coords.size()-1; i+=2) {
+			int x = coords.get(i);
+			int y = coords.get(i+1);
+		}
 		
 	}
 	

@@ -142,3 +142,14 @@ EditAction 1445592708261 PlanetExplorer.java 3656 8 16 0
 RefactoringAction 1445592756460 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1445592761687 PlanetExplorer.java ADD import java.util.List IMPORT
 EditAction 1445592914440 PlanetExplorer.java 3967 8 19 0
+RefactoringAction 1445593143121 PlanetExplorer.java ADD int gridSizeX FIELD
+RefactoringAction 1445593152172 PlanetExplorer.java ADD int gridSizeY FIELD
+RefactoringAction 1445593252449 PlanetExplorer.java ADD Set<String> obstacle FIELD
+RefactoringAction 1445593254979 PlanetExplorer.java RENAME obstacle=>Set<String> obstaclePositions FIELD
+CompilationAction 1445593268930 PlanetExplorer.java
+CompilationAction 1445593268931 PlanetExplorer.java
+RefactoringAction 1445593272878 PlanetExplorer.java ADD import java.util.Set IMPORT
+RefactoringAction 1445593277176 PlanetExplorer.java ADD import java.util.HashSet IMPORT
+CompilationAction 1445593305312 PlanetExplorer.java
+CompilationAction 1445593305313 PlanetExplorer.java
+EditAction 1445593366501 PlanetExplorer.java 4312 8 21 0
