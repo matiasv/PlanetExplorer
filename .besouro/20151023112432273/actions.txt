@@ -43,3 +43,6 @@ EditAction 1445590310951 TestPlanetExplorer.java 480 1 5 1
 RefactoringAction 1445590480300 TestPlanetExplorer.java ADD void testExecuteCommandErronneousInput() METHOD
 RefactoringAction 1445590519952 TestPlanetExplorer.java REMOVE testUpdateFacingToLeft() METHOD
 EditAction 1445590537425 TestPlanetExplorer.java 752 1 5 2
+UnitTestCaseAction 1445590543097 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445590543097 TestPlanetExplorer OK
+EditAction 1445590569739 TestPlanetExplorer.java 795 1 6 2
