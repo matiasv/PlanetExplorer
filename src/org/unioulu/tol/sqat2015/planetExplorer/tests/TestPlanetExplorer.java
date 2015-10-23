@@ -70,7 +70,7 @@ public class TestPlanetExplorer {
 		assertEquals("(0,4,S)",res);
 		cmd = "f";
 		res = explorer.executeCommand(cmd);
-		assertEquals("0,0,S)",res);
+		assertEquals("(0,0,S)",res);
 		
 		//assertEquals(res,"(0,0,S)");
 		//assertEquals("(0,0,S)",res);
