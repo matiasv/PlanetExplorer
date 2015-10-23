@@ -56,26 +56,27 @@ public class PlanetExplorer {
 	}
 	
 	private void parseObstaclePositions(String obstacles) {
+		if(obstacles == null )
+		
 		String[] temp = obstacles.split("[,\\)\\(]");
 		List<Integer> coords = new ArrayList<Integer>();
 		
 		for(String t: temp) {
 			try {
-				int coord = Integer.parseInt(t);
+				int coord = Integer.parseInt(t.trim());
 				coords.add(coord);
 			} catch(NumberFormatException ne) {}
 		}
 		
-		if(coords.size() % 2 != 0) {
+		if(coords.size() % 2 != 0 || coords.size() == 0) {
 			return;
 		}
 		
 		for(int i = 0; i < coords.size()-1; i+=2) {
 			int x = coords.get(i);
 			int y = coords.get(i+1);
-			
+			this.obstaclePositions.add("("+x+","+y+")");
 		}
-		
 	}
 	
 	public String executeCommand(String command){
