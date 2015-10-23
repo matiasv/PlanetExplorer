@@ -240,3 +240,8 @@ EditAction 1445596282749 TestPlanetExplorer.java 2566 4 40 15
 UnitTestCaseAction 1445596291538 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445596291539 TestPlanetExplorer OK
 EditAction 1445596298914 TestPlanetExplorer.java 2542 4 39 15
+CompilationAction 1445596299178 TestPlanetExplorer.java
+CompilationAction 1445596338428 TestPlanetExplorer.java
+UnitTestCaseAction 1445596343182 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445596343183 TestPlanetExplorer OK
+EditAction 1445596356235 TestPlanetExplorer.java 2612 4 41 15
