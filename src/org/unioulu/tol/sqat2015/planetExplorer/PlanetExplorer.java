@@ -4,13 +4,12 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 2158866
 // Finish time:
 public class PlanetExplorer {
-	public enum Direction {
+	private static enum Direction {
 		North, South, East, West
 	}
 	
-	public enum Facing {
-		
-	}
+	//where the obstacle is facing
+	Direction facing;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.

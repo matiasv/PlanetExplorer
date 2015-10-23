@@ -12,3 +12,7 @@ RefactoringAction 1445589529405 PlanetExplorer.java ADD Direction South FIELD
 RefactoringAction 1445589529406 PlanetExplorer.java ADD Direction East FIELD
 RefactoringAction 1445589530928 PlanetExplorer.java ADD Direction West FIELD
 EditAction 1445589532862 PlanetExplorer.java 1445 2 1 0
+RefactoringAction 1445589558542 PlanetExplorer.java ADD Facing Direction FIELD
+RefactoringAction 1445589560063 PlanetExplorer.java RENAME Direction=>Direction fa FIELD
+RefactoringAction 1445589561584 PlanetExplorer.java RENAME fa=>Direction facin FIELD
+EditAction 1445589600624 PlanetExplorer.java 1475 2 1 0
