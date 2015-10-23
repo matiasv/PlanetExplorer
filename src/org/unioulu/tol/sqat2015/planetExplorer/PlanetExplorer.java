@@ -74,6 +74,19 @@ public class PlanetExplorer {
 	}
 	
 	private void updateFacingToLeft() {
-		
+		switch(facing) {
+			case North:
+				this.facing = Direction.West;
+				break;
+			case West:
+				this.facing = Direction.South;
+				break;
+			case South:
+				this.facing = Direction.East;
+				break;
+			case East:
+				this.facing = Direction.North;
+			
+		}
 	}
 }
