@@ -57,7 +57,8 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandMoveForward() {
-		PlanetExplorer explorer = new PlanetExplorer(10,10,"");
+		PlanetExplorer explorer = new PlanetExplorer(5,5,"");
+		
 	}
 	
 	/*

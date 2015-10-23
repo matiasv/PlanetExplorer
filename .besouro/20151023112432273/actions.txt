@@ -190,3 +190,4 @@ RefactoringAction 1445593913581 PlanetExplorer.java RENAME ge=>Direction getMove
 EditAction 1445593920349 PlanetExplorer.java 4777 10 25 0
 EditAction 1445593961018 PlanetExplorer.java 4818 10 26 0
 EditAction 1445594088018 PlanetExplorer.java 5149 10 26 0
+EditAction 1445594434653 TestPlanetExplorer.java 2053 4 32 12
