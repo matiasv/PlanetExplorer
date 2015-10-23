@@ -73,6 +73,7 @@ public class PlanetExplorer {
 		for(int i = 0; i < coords.size()-1; i+=2) {
 			int x = coords.get(i);
 			int y = coords.get(i+1);
+			
 		}
 		
 	}
