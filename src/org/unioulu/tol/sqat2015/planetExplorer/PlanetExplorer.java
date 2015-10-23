@@ -86,7 +86,9 @@ public class PlanetExplorer {
 				break;
 			case East:
 				this.facing = Direction.North;
-			
+				break;
+			default:
+				break;
 		}
 	}
 }
