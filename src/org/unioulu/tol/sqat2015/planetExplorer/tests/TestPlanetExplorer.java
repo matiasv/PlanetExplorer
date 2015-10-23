@@ -24,7 +24,8 @@ public class TestPlanetExplorer {
 		String command = "l";
 		
 		String expected = "(0,0,W)";
-		fail("failing!");
+		String res = explorer.executeCommand("l");
+		assertEquals(expected,res);
 	}
 	
 	/*
