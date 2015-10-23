@@ -47,3 +47,7 @@
 1445592058904 test-first 3 177 true
 1445592058905 test-first 3 177 true
 1445592058906 test-first 3 177 true
+1445592179625 test-addition 2 73 true
+1445592179626 test-addition 1 73 true
+1445592179627 test-addition 2 73 true
+1445592179628 test-addition 1 73 true

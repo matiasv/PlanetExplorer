@@ -52,7 +52,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command == null || !command.matches("^[lrfb]+$")) {
-			return null;
+			return formatCurrentPosition();
 		}
 		
 		for(int i = 0; i < command.length(); i++) {
@@ -78,6 +78,10 @@ public class PlanetExplorer {
 		result += ")";
 		
 		return result;
+	}
+	
+	private String formatCurrentPosition() {
+		
 	}
 	
 	private void updateFacing(char direction) {
