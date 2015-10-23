@@ -105,3 +105,6 @@ UnitTestCaseAction 1445591860868 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445591860868 TestPlanetExplorer OK
 RefactoringAction 1445591881729 TestPlanetExplorer.java ADD void testExecuteCommandUpdateFacingToRight() METHOD
 EditAction 1445591959776 TestPlanetExplorer.java 1716 3 25 9
+UnitTestCaseAction 1445591965152 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445591965152 TestPlanetExplorer FAIL
+EditAction 1445591985003 PlanetExplorer.java 3091 6 11 0

@@ -88,6 +88,10 @@ public class PlanetExplorer {
 		}
 	}
 	
+	private void updateFacingToRight() {
+		
+	}
+	
 	private void updateFacingToLeft() {
 		switch(facing) {
 			case North:
