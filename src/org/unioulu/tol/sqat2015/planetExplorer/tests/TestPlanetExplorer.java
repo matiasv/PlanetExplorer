@@ -68,7 +68,7 @@ public class TestPlanetExplorer {
 		//String cmd ="rrf";
 		String cmd = "rrff";
 		res = explorer.executeCommand(cmd);
-		assertEquals("(0,0,S)",cmd);
+		assertEquals("(0,0,S)",res);
 		
 		res = explorer.executeCommand(cmd);
 		assertEquals("(0,4,S)",res);
