@@ -52,3 +52,4 @@ UnitTestSessionAction 1445590581217 TestPlanetExplorer OK
 RefactoringAction 1445590592907 TestPlanetExplorer.java ADD void testE FIELD
 RefactoringAction 1445590604423 TestPlanetExplorer.java RENAME testE=>void testExecuteCommandUpdateFacingToLeft() METHOD
 EditAction 1445590606884 TestPlanetExplorer.java 896 2 7 3
+EditAction 1445590613997 TestPlanetExplorer.java 913 2 8 3

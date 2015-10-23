@@ -20,7 +20,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExecuteCommandUpdateFacingToLeft() {
-		
+		fail("failing!");
 	}
 	
 	/*
