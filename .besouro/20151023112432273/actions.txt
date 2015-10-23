@@ -122,3 +122,12 @@ RefactoringAction 1445592335502 PlanetExplorer.java ADD String formatCurrentPosi
 EditAction 1445592336280 PlanetExplorer.java 3423 7 12 0
 CompilationAction 1445592336572 PlanetExplorer.java
 EditAction 1445592368793 PlanetExplorer.java 3768 7 16 0
+RefactoringAction 1445592380259 PlanetExplorer.java REMOVE updateFacing(char) METHOD
+RefactoringAction 1445592380259 PlanetExplorer.java REMOVE updateFacingToRight() METHOD
+RefactoringAction 1445592380260 PlanetExplorer.java REMOVE updateFacingToLeft() METHOD
+RefactoringAction 1445592380260 PlanetExplorer.java REMOVE formatCurrentPosition() METHOD
+RefactoringAction 1445592382784 PlanetExplorer.java ADD String formatCurrentPosition() METHOD
+RefactoringAction 1445592382785 PlanetExplorer.java ADD void updateFacing(char) METHOD
+RefactoringAction 1445592382785 PlanetExplorer.java ADD void updateFacingToRight() METHOD
+RefactoringAction 1445592382786 PlanetExplorer.java ADD void updateFacingToLeft() METHOD
+EditAction 1445592388727 PlanetExplorer.java 3489 7 14 0
