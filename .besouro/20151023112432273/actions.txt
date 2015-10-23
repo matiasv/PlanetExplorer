@@ -191,3 +191,9 @@ EditAction 1445593920349 PlanetExplorer.java 4777 10 25 0
 EditAction 1445593961018 PlanetExplorer.java 4818 10 26 0
 EditAction 1445594088018 PlanetExplorer.java 5149 10 26 0
 EditAction 1445594434653 TestPlanetExplorer.java 2053 4 32 12
+RefactoringAction 1445594478683 TestPlanetExplorer.java RENAME testExecuteCommandMoveForward()=>void testExecuteCommandMoveForwardC() METHOD
+RefactoringAction 1445594480200 TestPlanetExplorer.java RENAME testExecuteCommandMoveForwardC()=>void testExecuteCommandMoveForwardCrossing() METHOD
+RefactoringAction 1445594482719 TestPlanetExplorer.java RENAME testExecuteCommandMoveForwardCrossing()=>void testExecuteCommandMoveForwardCrossingTheS() METHOD
+RefactoringAction 1445594484235 TestPlanetExplorer.java RENAME testExecuteCommandMoveForwardCrossingTheS()=>void testExecuteCommandMoveForwardCrossingThe() METHOD
+RefactoringAction 1445594486251 TestPlanetExplorer.java RENAME testExecuteCommandMoveForwardCrossingThe()=>void testExecuteCommandMoveForwardCrossingTheGrid() METHOD
+EditAction 1445594522447 TestPlanetExplorer.java 2142 4 34 13

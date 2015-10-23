@@ -56,9 +56,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testExecuteCommandMoveForward() {
+	public void testExecuteCommandMoveForwardCrossingTheGrid() {
 		PlanetExplorer explorer = new PlanetExplorer(5,5,"");
-		
+		String res = explorer.executeCommand("f");
+		assertEquals(res,"(0,4,N)");
 	}
 	
 	/*
