@@ -47,6 +47,8 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(10,10,"");
 		String res = explorer.executeCommand("r");
 		assertEquals("(0,0,E)",res);
+		res = explorer.executeCommand("r");
+		assertEquals("(0,0,S",res);
 	}
 	
 	/*

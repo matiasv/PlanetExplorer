@@ -84,7 +84,7 @@ public class PlanetExplorer {
 		if(direction == LEFT) {
 			updateFacingToLeft();
 		} else if(direction == RIGHT) {
-			//updateFacingToRight();
+			updateFacingToRight();
 		}
 	}
 	
