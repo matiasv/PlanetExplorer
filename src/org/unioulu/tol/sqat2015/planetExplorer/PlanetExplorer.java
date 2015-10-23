@@ -40,6 +40,7 @@ public class PlanetExplorer {
 	}
 	
 	private void parseObstaclePositions(String obstacles) {
+		String[] temp = obstacles.split("[,\\)\\(]");
 		
 	}
 	

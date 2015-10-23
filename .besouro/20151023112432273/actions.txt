@@ -138,3 +138,4 @@ RefactoringAction 1445592611328 PlanetExplorer.java ADD void parseP FIELD
 RefactoringAction 1445592617352 PlanetExplorer.java RENAME parseP=>void parseObstaclePositio FIELD
 RefactoringAction 1445592622877 PlanetExplorer.java RENAME parseObstaclePositio=>void parseObstaclePositions(String) METHOD
 EditAction 1445592625405 PlanetExplorer.java 3607 8 15 0
+EditAction 1445592708261 PlanetExplorer.java 3656 8 16 0
