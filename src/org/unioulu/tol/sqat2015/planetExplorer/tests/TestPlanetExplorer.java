@@ -42,6 +42,13 @@ public class TestPlanetExplorer {
 	
 	}
 	
+	@Test
+	public void testExecuteCommandUpdateFacingToRight() {
+		PlanetExplorer explorer = new PlanetExplorer(10,10,"");
+		String res = explorer.executeCommand("r");
+		assertEquals("(0,0,E)",res);
+	}
+	
 	/*
 	@Test
 	public void testUpdateFacingToLeft() {
