@@ -26,3 +26,7 @@ CompilationAction 1445589723845 PlanetExplorer.java
 RefactoringAction 1445589740263 TestPlanetExplorer.java ADD void testUpdateFacing() METHOD
 EditAction 1445589743985 TestPlanetExplorer.java 282 2 1 0
 EditAction 1445590012618 PlanetExplorer.java 1657 3 2 0
+RefactoringAction 1445590133938 TestPlanetExplorer.java RENAME testUpdateFacing()=>void testUpdateFacingt() METHOD
+RefactoringAction 1445590136448 TestPlanetExplorer.java RENAME testUpdateFacingt()=>void testUpdateFacingToLeft() METHOD
+RefactoringAction 1445590161320 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1445590163451 TestPlanetExplorer.java 407 2 2 0
