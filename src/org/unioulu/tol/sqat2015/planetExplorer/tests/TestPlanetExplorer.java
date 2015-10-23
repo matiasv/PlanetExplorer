@@ -68,6 +68,7 @@ public class TestPlanetExplorer {
 		String cmd ="rrfff";
 		res = explorer.executeCommand(cmd);
 		assertEquals(res,"(0,0,S)");
+		assertEquals("(0,0,S)",res);
 		
 		//and from right side of the grid to the left side
 		//change direction to east with "l"
