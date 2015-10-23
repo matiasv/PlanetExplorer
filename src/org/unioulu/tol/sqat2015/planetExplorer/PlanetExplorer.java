@@ -12,7 +12,7 @@ public class PlanetExplorer {
 	private static final char RIGHT = 'r';
 	
 	public enum Direction {
-		North, South, East, West
+		North, South, East, West;
 	}
 	
 	private static class Position {
@@ -63,7 +63,21 @@ public class PlanetExplorer {
 			}
 		}
 		
-		return null;
+		String result = "(" + this.currentPos.x + "," + this.currentPos.y + ",";
+		
+		if(this.facing == Direction.North) {
+			result += "N";
+		} else if(this.facing == Direction.South) {
+			result += "S";
+		} else if(this.facing == Direction.East) {
+			result += "E";
+		} else {
+			result += "W";
+		}
+		
+		result += ")";
+		
+		return result;
 	}
 	
 	private void updateFacing(char direction) {
