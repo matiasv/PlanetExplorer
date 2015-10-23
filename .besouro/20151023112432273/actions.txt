@@ -17,3 +17,6 @@ RefactoringAction 1445589560063 PlanetExplorer.java RENAME Direction=>Direction 
 RefactoringAction 1445589561584 PlanetExplorer.java RENAME fa=>Direction facin FIELD
 EditAction 1445589600624 PlanetExplorer.java 1475 2 1 0
 EditAction 1445589618244 PlanetExplorer.java 1467 2 1 0
+RefactoringAction 1445589646794 PlanetExplorer.java ADD void updateFacing() METHOD
+RefactoringAction 1445589676903 PlanetExplorer.java RENAME updateFacing()=>void updateFacing(char) METHOD
+EditAction 1445589680668 PlanetExplorer.java 1524 3 1 0

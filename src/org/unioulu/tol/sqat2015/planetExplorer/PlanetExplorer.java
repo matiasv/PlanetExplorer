@@ -34,4 +34,8 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	private void updateFacing(char direction) {
+		
+	}
 }
