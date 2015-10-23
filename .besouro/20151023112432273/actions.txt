@@ -53,3 +53,19 @@ RefactoringAction 1445590592907 TestPlanetExplorer.java ADD void testE FIELD
 RefactoringAction 1445590604423 TestPlanetExplorer.java RENAME testE=>void testExecuteCommandUpdateFacingToLeft() METHOD
 EditAction 1445590606884 TestPlanetExplorer.java 896 2 7 3
 EditAction 1445590613997 TestPlanetExplorer.java 913 2 8 3
+RefactoringAction 1445590642341 PlanetExplorer.java ADD Direction facing FIELD
+RefactoringAction 1445590642342 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445590642342 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445590642343 PlanetExplorer.java ADD void updateFacing(char) METHOD
+RefactoringAction 1445590678397 PlanetExplorer.java ADD Position(int, int) METHOD
+RefactoringAction 1445590678398 PlanetExplorer.java ADD Direction facing FIELD
+RefactoringAction 1445590678399 PlanetExplorer.java ADD void PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445590678399 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445590678400 PlanetExplorer.java ADD void updateFacing(char) METHOD
+RefactoringAction 1445590680417 PlanetExplorer.java ADD Direction facing FIELD
+RefactoringAction 1445590680417 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445590680418 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445590680418 PlanetExplorer.java ADD void updateFacing(char) METHOD
+RefactoringAction 1445590725590 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445590725590 PlanetExplorer.java ADD int y FIELD
+EditAction 1445590751325 PlanetExplorer.java 1952 4 5 0

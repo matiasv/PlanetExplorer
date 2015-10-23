@@ -10,6 +10,16 @@ public class PlanetExplorer {
 		North, South, East, West
 	}
 	
+	private static class Position {
+	    public int x;
+	    public int y;
+	    
+		public Position(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
+	}
+	
 	//where the obstacle is facing
 	private Direction facing;
 	
@@ -20,6 +30,7 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		
 	}
 	
 	public String executeCommand(String command){
