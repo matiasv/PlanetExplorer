@@ -15,6 +15,7 @@ public class TestPlanetExplorer {
 		res = explorer.executeCommand("");
 		assertEquals(null,res);
 		res = explorer.executeCommand("ffraf");
+		assertEquals(null,res);
 	}
 	
 	/*
