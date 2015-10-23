@@ -25,6 +25,7 @@ public class PlanetExplorer {
 		}
 	}
 	
+	private Position  currentPos = new Position(0,0);
 	//where the obstacle is facing
 	private Direction facing;
 	
@@ -67,7 +68,7 @@ public class PlanetExplorer {
 	
 	private void updateFacing(char direction) {
 		if(direction == LEFT) {
-			//updateFacingToLeft();
+			updateFacingToLeft();
 		} else if(direction == RIGHT) {
 			//updateFacingToRight();
 		}
