@@ -39,9 +39,9 @@ public class PlanetExplorer {
 	
 	private void updateFacing(char direction) {
 		if(direction == 'l') {
-			
+			//updateFacingToLeft();
 		} else if(direction == 'r') {
-			
+			//updateFacingToRight();
 		}
 	}
 }
