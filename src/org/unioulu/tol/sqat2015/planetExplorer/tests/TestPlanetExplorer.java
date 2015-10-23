@@ -49,6 +49,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,E)",res);
 		res = explorer.executeCommand("r");
 		assertEquals("(0,0,S",res);
+		res = explorer.executeCommand("r");
+		assertEquals("(0,0,W",res);
+		res = explorer.executeCommand("r");
+		assertEquals("(0,0,N",res);
 	}
 	
 	/*
