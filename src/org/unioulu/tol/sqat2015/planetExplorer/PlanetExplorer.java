@@ -126,8 +126,14 @@ public class PlanetExplorer {
 	}
 	
 	private Direction getMoveDirection(char direction) {
-		if(facing == Direction.North) {
-			
+		if(facing == Direction.North && direction == FORWARD) {
+			return Direction.North;
+		} else if(facing == Direction.North && direction == BACKWARD) {
+			return Direction.South;
+		} else if(facing == Direction.South && direction == FORWARD) {
+			return Direction.South;
+		} else if(facing == Direction.South && direction == BACKWARD) {
+			return Direction.North;
 		}
 		
 		return null;
