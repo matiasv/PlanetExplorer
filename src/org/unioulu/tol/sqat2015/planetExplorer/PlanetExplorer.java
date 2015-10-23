@@ -116,11 +116,19 @@ public class PlanetExplorer {
 	}
 	
 	private void move(char direction) {
+		Direction moveDir = getMoveDirection(direction);
+		
 		if(direction == FORWARD) {
 			
 		} else if(direction == BACKWARD) {
 			
 		}
+	}
+	
+	private Direction getMoveDirection(char direction) {
+		
+		
+		return null;
 	}
 	
 	private void updateFacing(char direction) {

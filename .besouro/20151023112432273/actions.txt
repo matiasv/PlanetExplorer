@@ -184,3 +184,7 @@ RefactoringAction 1445593713556 TestPlanetExplorer.java ADD void testExecuteComm
 RefactoringAction 1445593723074 TestPlanetExplorer.java RENAME testExecuteCommandMove=>void testExecuteCommandMoveForward() METHOD
 EditAction 1445593727014 TestPlanetExplorer.java 1996 4 31 12
 EditAction 1445593737884 TestPlanetExplorer.java 2051 4 32 12
+RefactoringAction 1445593896996 PlanetExplorer.java ADD Directon moveDir FIELD
+RefactoringAction 1445593902052 PlanetExplorer.java RENAME moveDir=>Directon ge FIELD
+RefactoringAction 1445593913581 PlanetExplorer.java RENAME ge=>Direction getMoveDirection(char) METHOD
+EditAction 1445593920349 PlanetExplorer.java 4777 10 25 0
