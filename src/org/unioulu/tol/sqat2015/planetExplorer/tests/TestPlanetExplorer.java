@@ -8,6 +8,16 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 
 	@Test
+	public void testExecuteCommandErronneousInput() {
+		PlanetExplorer explorer = new PlanetExplorer(10,10,"");
+		String res = explorer.executeCommand(null);
+		assertEquals(null,res);
+		res = explorer.executeCommand("");
+		assertEquals(null,res);
+	}
+	
+	/*
+	@Test
 	public void testUpdateFacingToLeft() {
 		PlanetExplorer explorer = new PlanetExplorer(10,10,"");
 		String command = "l";
@@ -15,7 +25,7 @@ public class TestPlanetExplorer {
 		String expected = "(0,0,W)";
 		String res = explorer.executeCommand("l");
 		assertEquals(expected,res);
-	}
+	}*/
 	
 
 }

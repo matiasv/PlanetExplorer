@@ -34,6 +34,10 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		if(command == null || !command.matches("^[lrfb]*$")) {
+			return null;
+		}
+		
 		return null;
 	}
 	
