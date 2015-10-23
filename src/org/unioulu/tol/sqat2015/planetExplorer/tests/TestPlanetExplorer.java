@@ -65,7 +65,11 @@ public class TestPlanetExplorer {
 		
 		//the same thing moving across the grid to the top
 		//note: also changing direction here (to South)
-		String cmd ="rrf";
+		//String cmd ="rrf";
+		String cmd = "rrff";
+		res = explorer.executeCommand(cmd);
+		assertEquals("(0,0,S)",cmd);
+		
 		res = explorer.executeCommand(cmd);
 		assertEquals("(0,4,S)",res);
 		cmd = "f";
