@@ -25,6 +25,12 @@ public class TestPlanetExplorer {
 		String expected = "(0,0,W)";
 		String res = explorer.executeCommand("l");
 		assertEquals(expected,res);
+		
+		explorer =  new PlanetExplorer(10,10,"");
+		//llll should return (0,0,N)
+		expected = "(0,0,N)";
+		res = explorer.executeCommand("llll");
+		assertEquals(expected,res);
 	}
 	
 	/*

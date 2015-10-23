@@ -90,3 +90,6 @@ EditAction 1445591299364 PlanetExplorer.java 2706 5 8 0
 RefactoringAction 1445591335524 PlanetExplorer.java ADD String toString() METHOD
 RefactoringAction 1445591347567 PlanetExplorer.java REMOVE toString() METHOD
 EditAction 1445591539660 PlanetExplorer.java 3041 5 11 0
+UnitTestCaseAction 1445591574802 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445591574802 TestPlanetExplorer OK
+EditAction 1445591683478 TestPlanetExplorer.java 1243 2 15 5

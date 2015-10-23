@@ -30,3 +30,9 @@
 1445590543126 test-last 1 1870 false
 1445590543127 test-last 1 1870 false
 1445590581217 test-addition 1 11 true
+1445591574802 test-first 3 981 true
+1445591574803 test-first 3 981 true
+1445591574804 test-first 3 981 true
+1445591574805 test-first 3 981 true
+1445591574806 test-first 3 981 true
+1445591574807 test-last 1 981 false
