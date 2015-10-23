@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	}
 	
 	//where the obstacle is facing
-	Direction facing;
+	private Direction facing;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -38,6 +38,10 @@ public class PlanetExplorer {
 	}
 	
 	private void updateFacing(char direction) {
-		
+		if(direction == 'l') {
+			
+		} else if(direction == 'r') {
+			
+		}
 	}
 }
