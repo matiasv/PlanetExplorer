@@ -31,3 +31,4 @@ RefactoringAction 1445590136448 TestPlanetExplorer.java RENAME testUpdateFacingt
 RefactoringAction 1445590161320 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445590163451 TestPlanetExplorer.java 407 2 2 0
 EditAction 1445590183841 TestPlanetExplorer.java 432 2 3 0
+EditAction 1445590205267 TestPlanetExplorer.java 477 2 1 0
