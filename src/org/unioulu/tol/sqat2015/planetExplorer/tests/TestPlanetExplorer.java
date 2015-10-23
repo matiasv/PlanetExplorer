@@ -70,6 +70,8 @@ public class TestPlanetExplorer {
 		assertEquals(res,"(0,0,S)");
 		
 		//and from right side of the grid to the left side
+		//change direction to east with "l"
+		cmd = "l";
 	}
 	
 	/*
