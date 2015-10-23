@@ -18,6 +18,11 @@ public class TestPlanetExplorer {
 		assertEquals(null,res);
 	}
 	
+	@Test
+	public void testExecuteCommandUpdateFacingToLeft() {
+		
+	}
+	
 	/*
 	@Test
 	public void testUpdateFacingToLeft() {
