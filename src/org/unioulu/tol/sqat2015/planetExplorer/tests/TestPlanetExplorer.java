@@ -21,7 +21,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExecuteCommandUpdateFacingToLeft() {
 		PlanetExplorer explorer = new PlanetExplorer(10,10,"");
-		String command = "l";
 		
 		String expected = "(0,0,W)";
 		String res = explorer.executeCommand("l");

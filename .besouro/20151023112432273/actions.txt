@@ -71,3 +71,15 @@ RefactoringAction 1445590725590 PlanetExplorer.java ADD int y FIELD
 EditAction 1445590751325 PlanetExplorer.java 1952 4 5 0
 EditAction 1445590762563 TestPlanetExplorer.java 1033 2 11 3
 EditAction 1445590775770 TestPlanetExplorer.java 1089 2 12 4
+UnitTestCaseAction 1445590779622 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590779622 TestPlanetExplorer FAIL
+CompilationAction 1445590972120 PlanetExplorer.java
+CompilationAction 1445590972121 PlanetExplorer.java
+RefactoringAction 1445591012243 PlanetExplorer.java ADD char FORWARD FIELD
+RefactoringAction 1445591012243 PlanetExplorer.java ADD char BACKWARD FIELD
+RefactoringAction 1445591012244 PlanetExplorer.java ADD char LEFT FIELD
+RefactoringAction 1445591012244 PlanetExplorer.java ADD char RIGHT FIELD
+CompilationAction 1445591065465 PlanetExplorer.java
+CompilationAction 1445591065465 PlanetExplorer.java
+RefactoringAction 1445591073512 PlanetExplorer.java ADD void updateFacingToLeft() METHOD
+EditAction 1445591132432 PlanetExplorer.java 2358 5 7 0

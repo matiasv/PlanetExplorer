@@ -6,6 +6,11 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	public static String STARTING_POSITION = "(0,0)";
 	
+	private static final char FORWARD = 'f';
+	private static final char BACKWARD = 'b';
+	private static final char LEFT = 'l';
+	private static final char RIGHT = 'r';
+	
 	public enum Direction {
 		North, South, East, West
 	}
@@ -30,11 +35,11 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		
+		this.facing = Direction.North;
 	}
 	
 	public String executeCommand(String command){
-		
+
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -45,18 +50,30 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command == null || !command.matches("^[lrfb]*$")) {
+		if(command == null || !command.matches("^[lrfb]+$")) {
 			return null;
+		}
+		
+		for(int i = 0; i < command.length(); i++) {
+			char c = command.charAt(i);
+			
+			if(c == LEFT || c == RIGHT) {
+				updateFacing(c);
+			}
 		}
 		
 		return null;
 	}
 	
 	private void updateFacing(char direction) {
-		if(direction == 'l') {
+		if(direction == LEFT) {
 			//updateFacingToLeft();
-		} else if(direction == 'r') {
+		} else if(direction == RIGHT) {
 			//updateFacingToRight();
 		}
+	}
+	
+	private void updateFacingToLeft() {
+		
 	}
 }
