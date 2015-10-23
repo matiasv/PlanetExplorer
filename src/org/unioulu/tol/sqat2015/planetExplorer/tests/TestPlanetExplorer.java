@@ -55,6 +55,11 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)",res);
 	}
 	
+	@Test
+	public void testExecuteCommandMoveForward() {
+		
+	}
+	
 	/*
 	@Test
 	public void testUpdateFacingToLeft() {
