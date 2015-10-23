@@ -69,3 +69,4 @@ RefactoringAction 1445590680418 PlanetExplorer.java ADD void updateFacing(char) 
 RefactoringAction 1445590725590 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1445590725590 PlanetExplorer.java ADD int y FIELD
 EditAction 1445590751325 PlanetExplorer.java 1952 4 5 0
+EditAction 1445590762563 TestPlanetExplorer.java 1033 2 11 3
