@@ -36,3 +36,4 @@
 1445591574805 test-first 3 981 true
 1445591574806 test-first 3 981 true
 1445591574807 test-last 1 981 false
+1445591687678 test-addition 1 4 true
