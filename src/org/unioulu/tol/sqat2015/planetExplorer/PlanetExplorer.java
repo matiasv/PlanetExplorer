@@ -1,5 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 2158866
 // Finish time:
@@ -41,6 +44,19 @@ public class PlanetExplorer {
 	
 	private void parseObstaclePositions(String obstacles) {
 		String[] temp = obstacles.split("[,\\)\\(]");
+		List<Integer> coords = new ArrayList<Integer>();
+		
+		for(String t: temp) {
+			try {
+				int coord = Integer.parseInt(t);
+				coords.add(coord);
+			} catch(NumberFormatException ne) {}
+		}
+		
+		if(coords.size() % 2 != 0) {
+			return;
+		}
+		
 		
 	}
 	

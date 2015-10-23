@@ -139,3 +139,6 @@ RefactoringAction 1445592617352 PlanetExplorer.java RENAME parseP=>void parseObs
 RefactoringAction 1445592622877 PlanetExplorer.java RENAME parseObstaclePositio=>void parseObstaclePositions(String) METHOD
 EditAction 1445592625405 PlanetExplorer.java 3607 8 15 0
 EditAction 1445592708261 PlanetExplorer.java 3656 8 16 0
+RefactoringAction 1445592756460 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1445592761687 PlanetExplorer.java ADD import java.util.List IMPORT
+EditAction 1445592914440 PlanetExplorer.java 3967 8 19 0
