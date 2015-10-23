@@ -131,3 +131,6 @@ RefactoringAction 1445592382785 PlanetExplorer.java ADD void updateFacing(char) 
 RefactoringAction 1445592382785 PlanetExplorer.java ADD void updateFacingToRight() METHOD
 RefactoringAction 1445592382786 PlanetExplorer.java ADD void updateFacingToLeft() METHOD
 EditAction 1445592388727 PlanetExplorer.java 3489 7 14 0
+UnitTestCaseAction 1445592393010 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445592393010 TestPlanetExplorer FAIL
+EditAction 1445592473926 PlanetExplorer.java 3538 7 15 0

@@ -51,8 +51,13 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		
+		if(command == null || command.length() == 0) {
+			
+		}
+		
 		if(command == null || !command.matches("^[lrfb]+$")) {
-			return formatCurrentPosition();
+			return null;
 		}
 		
 		for(int i = 0; i < command.length(); i++) {
