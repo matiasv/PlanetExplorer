@@ -103,28 +103,14 @@ public class PlanetExplorer {
 			
 			if(c == LEFT || c == RIGHT) {
 				updateFacing(c);
+			} else if(c == FORWARD || c == BACKWARD) {
+				move(c);
 			}
+			
+			
 		}
 		
 		String result = this.formatCurrentPosition();
-		
-		return result;
-	}
-	
-	private String formatCurrentPosition() {
-	String result = "(" + this.currentPos.x + "," + this.currentPos.y + ",";
-		
-		if(this.facing == Direction.North) {
-			result += "N";
-		} else if(this.facing == Direction.South) {
-			result += "S";
-		} else if(this.facing == Direction.East) {
-			result += "E";
-		} else {
-			result += "W";
-		}
-		
-		result += ")";
 		
 		return result;
 	}
@@ -171,5 +157,23 @@ public class PlanetExplorer {
 			default:
 				break;
 		}
+	}
+	
+	private String formatCurrentPosition() {
+	String result = "(" + this.currentPos.x + "," + this.currentPos.y + ",";
+		
+		if(this.facing == Direction.North) {
+			result += "N";
+		} else if(this.facing == Direction.South) {
+			result += "S";
+		} else if(this.facing == Direction.East) {
+			result += "E";
+		} else {
+			result += "W";
+		}
+		
+		result += ")";
+		
+		return result;
 	}
 }

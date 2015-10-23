@@ -168,3 +168,10 @@ CompilationAction 1445593465898 PlanetExplorer.java
 UnitTestCaseAction 1445593488367 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445593488368 TestPlanetExplorer OK
 EditAction 1445593511815 PlanetExplorer.java 4436 8 22 0
+RefactoringAction 1445593566493 PlanetExplorer.java REMOVE updateFacing(char) METHOD
+RefactoringAction 1445593566493 PlanetExplorer.java REMOVE updateFacingToRight() METHOD
+RefactoringAction 1445593566494 PlanetExplorer.java REMOVE updateFacingToLeft() METHOD
+RefactoringAction 1445593573574 PlanetExplorer.java ADD void updateFacing(char) METHOD
+RefactoringAction 1445593573574 PlanetExplorer.java ADD void updateFacingToRight() METHOD
+RefactoringAction 1445593573575 PlanetExplorer.java ADD void updateFacingToLeft() METHOD
+EditAction 1445593574391 PlanetExplorer.java 4507 8 22 0
