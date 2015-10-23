@@ -134,3 +134,7 @@ EditAction 1445592388727 PlanetExplorer.java 3489 7 14 0
 UnitTestCaseAction 1445592393010 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445592393010 TestPlanetExplorer FAIL
 EditAction 1445592473926 PlanetExplorer.java 3538 7 15 0
+RefactoringAction 1445592611328 PlanetExplorer.java ADD void parseP FIELD
+RefactoringAction 1445592617352 PlanetExplorer.java RENAME parseP=>void parseObstaclePositio FIELD
+RefactoringAction 1445592622877 PlanetExplorer.java RENAME parseObstaclePositio=>void parseObstaclePositions(String) METHOD
+EditAction 1445592625405 PlanetExplorer.java 3607 8 15 0
