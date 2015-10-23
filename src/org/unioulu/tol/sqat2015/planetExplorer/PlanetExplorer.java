@@ -115,6 +115,10 @@ public class PlanetExplorer {
 		return result;
 	}
 	
+	private void move(char direction) {
+		
+	}
+	
 	private void updateFacing(char direction) {
 		if(direction == LEFT) {
 			updateFacingToLeft();

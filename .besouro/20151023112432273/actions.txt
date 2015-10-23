@@ -175,3 +175,7 @@ RefactoringAction 1445593573574 PlanetExplorer.java ADD void updateFacing(char) 
 RefactoringAction 1445593573574 PlanetExplorer.java ADD void updateFacingToRight() METHOD
 RefactoringAction 1445593573575 PlanetExplorer.java ADD void updateFacingToLeft() METHOD
 EditAction 1445593574391 PlanetExplorer.java 4507 8 22 0
+CompilationAction 1445593574670 PlanetExplorer.java
+RefactoringAction 1445593583660 PlanetExplorer.java ADD void move() METHOD
+RefactoringAction 1445593587689 PlanetExplorer.java RENAME move()=>void move(char) METHOD
+EditAction 1445593588366 PlanetExplorer.java 4556 9 22 0
