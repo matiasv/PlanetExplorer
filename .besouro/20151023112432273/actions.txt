@@ -120,3 +120,5 @@ UnitTestCaseAction 1445592179624 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445592179625 TestPlanetExplorer OK
 RefactoringAction 1445592335502 PlanetExplorer.java ADD String formatCurrentPosition() METHOD
 EditAction 1445592336280 PlanetExplorer.java 3423 7 12 0
+CompilationAction 1445592336572 PlanetExplorer.java
+EditAction 1445592368793 PlanetExplorer.java 3768 7 16 0
