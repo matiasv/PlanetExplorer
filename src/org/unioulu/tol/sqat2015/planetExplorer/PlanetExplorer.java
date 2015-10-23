@@ -138,6 +138,10 @@ public class PlanetExplorer {
 			return Direction.East;
 		} else if(facing == Direction.East && direction == BACKWARD) {
 			return Direction.West;
+		} else if(facing == Direction.West && direction ==  FORWARD) {
+			return Direction.West;
+		} else if(facing == Direction.West && direction == BACKWARD) {
+			return Direction.East;
 		}
 		
 		return null;
