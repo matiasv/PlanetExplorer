@@ -7,7 +7,7 @@ import java.util.Set;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 2158866
-// Finish time:
+// Finish time: 13:34
 public class PlanetExplorer {
 	public static String STARTING_POSITION = "(0,0)";
 	
