@@ -140,11 +140,14 @@ public class PlanetExplorer {
 	private Position getPositionAfterMove(Direction moveDir) {
 		Position nextPos = null;
 		if(moveDir == Direction.North) {
+			//java's % can return negative numbers so it's just easier this way	
 			if(currentPos.y() == 0) {
 				nextPos = new Position(currentPos.x(),this.gridSizeY-1);
 			} else {
 				nextPos = new Position(currentPos.x,currentPos.y()-1);
 			}
+		} else if(moveDir == Direction.South) {
+			nextPos = new Position(currentPos.x(),(currentPos.y()+1) % this.gridSizeY );
 		}
 		
 		return nextPos;

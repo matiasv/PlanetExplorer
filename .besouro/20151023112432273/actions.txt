@@ -213,3 +213,12 @@ RefactoringAction 1445595049078 PlanetExplorer.java ADD int x() METHOD
 UnitTestCaseAction 1445595335716 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445595335717 TestPlanetExplorer OK
 EditAction 1445595368781 TestPlanetExplorer.java 2188 4 35 13
+CompilationAction 1445595369045 TestPlanetExplorer.java
+CompilationAction 1445595387059 TestPlanetExplorer.java
+UnitTestCaseAction 1445595392704 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595392705 TestPlanetExplorer OK
+UnitTestCaseAction 1445595641446 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445595641447 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445595817651 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595817652 TestPlanetExplorer OK
+EditAction 1445595944766 TestPlanetExplorer.java 2345 4 37 14
