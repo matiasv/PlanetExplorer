@@ -17,8 +17,5 @@ public class TestPlanetExplorer {
 		assertEquals(expected,res);
 	}
 	
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
+
 }

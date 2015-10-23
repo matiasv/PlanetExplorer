@@ -36,3 +36,7 @@ CompilationAction 1445590205532 TestPlanetExplorer.java
 CompilationAction 1445590210400 TestPlanetExplorer.java
 EditAction 1445590292895 TestPlanetExplorer.java 545 2 6 1
 EditAction 1445590304332 PlanetExplorer.java 1704 3 2 0
+UnitTestCaseAction 1445590304848 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445590304850 TestPlanetExplorer FAIL
+RefactoringAction 1445590310772 TestPlanetExplorer.java REMOVE test() METHOD
+EditAction 1445590310951 TestPlanetExplorer.java 480 1 5 1
