@@ -60,6 +60,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(5,5,"");
 		String res = explorer.executeCommand("f");
 		assertEquals(res,"(0,4,N)");
+		String res = explorer.executeCommand("f");
 	}
 	
 	/*

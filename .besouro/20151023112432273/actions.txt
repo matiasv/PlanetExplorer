@@ -201,3 +201,15 @@ UnitTestCaseAction 1445594528515 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445594528516 TestPlanetExplorer FAIL
 EditAction 1445594601647 PlanetExplorer.java 5334 10 26 0
 EditAction 1445594656907 PlanetExplorer.java 5520 10 26 0
+RefactoringAction 1445594845532 PlanetExplorer.java ADD void get FIELD
+RefactoringAction 1445594858063 PlanetExplorer.java RENAME get=>void getC FIELD
+RefactoringAction 1445594860090 PlanetExplorer.java RENAME getC=>void getCoordinate FIELD
+RefactoringAction 1445594862620 PlanetExplorer.java RENAME getCoordinate=>void getCoordinateS FIELD
+RefactoringAction 1445594868648 PlanetExplorer.java RENAME getCoordinateS=>void getCoordinatesAfterMove() METHOD
+RefactoringAction 1445594899703 PlanetExplorer.java RENAME getCoordinatesAfterMove()=>Position getPositionAfterMove() METHOD
+RefactoringAction 1445594906230 PlanetExplorer.java RENAME getPositionAfterMove()=>Position getPositionAfterMove(Direction) METHOD
+RefactoringAction 1445595043548 PlanetExplorer.java ADD int y() METHOD
+RefactoringAction 1445595049078 PlanetExplorer.java ADD int x() METHOD
+UnitTestCaseAction 1445595335716 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445595335717 TestPlanetExplorer OK
+EditAction 1445595368781 TestPlanetExplorer.java 2188 4 35 13

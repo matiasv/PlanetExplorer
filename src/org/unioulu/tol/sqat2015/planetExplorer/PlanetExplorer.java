@@ -21,13 +21,16 @@ public class PlanetExplorer {
 	}
 	
 	private static class Position {
-	    public int x;
-	    public int y;
+	    private int x;
+	    private int y;
 	    
 		public Position(int x, int y) {
 			this.x = x;
 			this.y = y;
 		}
+		
+		public int x() { return x; }
+		public int y() { return y; }
 	}
 	
 	private Position  currentPos = new Position(0,0);
@@ -104,10 +107,28 @@ public class PlanetExplorer {
 			if(c == LEFT || c == RIGHT) {
 				updateFacing(c);
 			} else if(c == FORWARD || c == BACKWARD) {
-				move(c);
-			}
-			
-			
+				/*
+				 * Moving the explorer
+				 */
+				
+				
+				/*
+				 * 1. get move direction
+				 * 2. get the coordinate from that
+				 * 3. if it contains an obstacle, add that to the string of obstacles
+				 * 4. otherwise move to that spot - updating currentPos!
+				 */
+				
+				//1
+				Direction moveDir = getMoveDirection(c);
+				//2 get the next coordinate
+				
+				//3 NOT IMPLEMENTED YET
+				
+				//4 Move the explorer to the new position
+				Position nextPos = this.getPositionAfterMove(moveDir);
+				this.currentPos = nextPos;	
+			}	
 		}
 		
 		String result = this.formatCurrentPosition();
@@ -115,8 +136,26 @@ public class PlanetExplorer {
 		return result;
 	}
 	
+	//TODO: Implement all cases!
+	private Position getPositionAfterMove(Direction moveDir) {
+		Position nextPos = null;
+		if(moveDir == Direction.North) {
+			if(currentPos.y() == 0) {
+				nextPos = new Position(currentPos.x(),this.gridSizeY-1);
+			} else {
+				nextPos = new Position(currentPos.x,currentPos.y()-1);
+			}
+		}
+		
+		return nextPos;
+	}
+	
 	private void move(char direction) {
 		Direction moveDir = getMoveDirection(direction);
+		
+		/*
+		 * don't handle 
+		 */
 		
 		if(direction == FORWARD) {
 			
