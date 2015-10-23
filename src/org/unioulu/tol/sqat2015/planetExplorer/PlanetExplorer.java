@@ -4,6 +4,10 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 2158866
 // Finish time:
 public class PlanetExplorer {
+	public enum Direction {
+		North, South, East, West
+	}
+	
 	public enum Facing {
 		
 	}

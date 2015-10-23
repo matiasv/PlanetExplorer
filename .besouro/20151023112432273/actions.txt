@@ -4,3 +4,11 @@ EditAction 1445588793613 PlanetExplorer.java 1350 2 1 0
 RefactoringAction 1445589438270 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
 RefactoringAction 1445589438271 PlanetExplorer.java ADD String executeCommand(String) METHOD
 EditAction 1445589440039 PlanetExplorer.java 1384 2 1 0
+RefactoringAction 1445589520340 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1445589520341 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1445589521862 PlanetExplorer.java ADD Direction N FIELD
+RefactoringAction 1445589523383 PlanetExplorer.java RENAME N=>Direction North FIELD
+RefactoringAction 1445589529405 PlanetExplorer.java ADD Direction South FIELD
+RefactoringAction 1445589529406 PlanetExplorer.java ADD Direction East FIELD
+RefactoringAction 1445589530928 PlanetExplorer.java ADD Direction West FIELD
+EditAction 1445589532862 PlanetExplorer.java 1445 2 1 0
