@@ -4,6 +4,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 // ID: 2158866
 // Finish time:
 public class PlanetExplorer {
+	public static String STARTING_POSITION = "(0,0)";
+	
 	public enum Direction {
 		North, South, East, West
 	}
