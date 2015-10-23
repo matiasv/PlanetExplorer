@@ -188,3 +188,4 @@ RefactoringAction 1445593896996 PlanetExplorer.java ADD Directon moveDir FIELD
 RefactoringAction 1445593902052 PlanetExplorer.java RENAME moveDir=>Directon ge FIELD
 RefactoringAction 1445593913581 PlanetExplorer.java RENAME ge=>Direction getMoveDirection(char) METHOD
 EditAction 1445593920349 PlanetExplorer.java 4777 10 25 0
+EditAction 1445593961018 PlanetExplorer.java 4818 10 26 0
